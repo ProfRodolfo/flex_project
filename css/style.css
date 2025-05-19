@@ -1,0 +1,149 @@
+/* Variaveis das cores */
+:root {
+	--Background-blue-Dark: #122ab2;
+    --Background-blue-Bright: #2c70ff;
+    --Background-Gray-Soft: #f7f7f7;
+	--Row-Purple: #ae81ff;
+	--Row-Pink: #f9265e;
+	--Row-blue: #66d9eb;
+    --Color-gray-Soft: #a4a4a4;
+    --Color-gray-Strong: #7c7c7c;
+    --Color-Black-Bright: #222222;
+    
+}
+
+/* Gerais - Reset */
+* {
+	box-sizing: border-box;
+}
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', Helvetica, Arial, sans-serif;
+	color: var(--Color-Black-Bright);
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Informação */
+.superinfo-bg {
+	background-color: var(--Background-blue-Dark);
+	color: #fff;
+}
+.superinfo a {
+	color: white;
+}
+.superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+    margin: 0 10px 10px 10px ;
+}
+
+/* Menu */
+.menu-bg {
+    background-color: var(--Background-blue-Bright);
+}
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo a{
+    font-size: 2.25em ;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+.menu-nav a:hover{
+    color: var(--Background-blue-Dark);
+}
+
+/* Introdução */
+.introducao{
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+/* Sobre */
+
+.sobre{
+	border-top: 2px solid var(--Background-blue-Dark);
+	border-bottom: 2px solid var(--Background-blue-Dark);
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: var(--Color-gray-Strong);
+}
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+/* Produtos */
+
+/* Preço */
+
+/* Qualidade */
+
+/* Newsletter*/
+
+/* Footer */
+
