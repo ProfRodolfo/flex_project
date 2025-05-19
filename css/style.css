@@ -138,6 +138,30 @@ img {
     margin: 0 10px;
 }
 /* Produtos */
+.produtos{
+    max-width: 960px;
+    margin: 60px auto;
+}
+.produtos h1{
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.produtos-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+.produtos-item h2{
+    font-size: 3em;
+    color: var(--Color-gray-Soft);
+    background: var(--Background-Gray-Soft);
+    padding: 60px 20px;
+}
+
 
 /* Preço */
 
