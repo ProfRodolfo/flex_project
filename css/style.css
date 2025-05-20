@@ -259,6 +259,42 @@ img {
 }
 
 /* Qualidade */
+.qualidade{
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualidade-item{
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+.qualidade-item h2{
+    font-size: 2.25em;
+    color: var(--Color-gray-Soft);
+    margin-bottom: 20px;
+}
+.qualidade-item h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+.qualidade-item:nth-of-type(3n+1) h2::before{
+    background: var(--Row-Purple);
+}
+.qualidade-item:nth-of-type(3n+2) h2::before{
+    background: var(--Row-Pink);
+}
+.qualidade-item:nth-of-type(3n+3) h2::before{
+    background: var(--Row-blue)
+}
+.qualidade-item p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: var(--Color-gray-Strong);
+}
 
 /* Newsletter*/
 
